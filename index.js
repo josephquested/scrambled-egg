@@ -3,7 +3,8 @@ document.getElementById('random-button').addEventListener("click", openRandomEpi
 function openRandomEpisode () {
   var season = randomInt(1, 11)
   var episode = randomInt(1, 24)
-  open(`http://putlocker.is/watch-frasier-tvshow-season-${season}-episode-${episode}-online-free-putlocker.html`)
+  // open(`http://putlocker.is/watch-frasier-tvshow-season-${season}-episode-${episode}-online-free-putlocker.html`)
+  open(`http://watchseries.cr/series/frasier/season/${season}/episode/${episode}`)
 }
 
 function randomInt (min, max) {
